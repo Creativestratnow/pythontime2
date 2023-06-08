@@ -26,6 +26,6 @@ print(os.path.exists('hi/hello.py'))
 os.path.isdir('hi')
 os.path.exists('hi')
 # list ว่าในโฟลเดอร์นี้มีอะไรบ้าง
-print(os.listdir('jedi'))
+print(os.listdir('hi'))
 #สร้างโฟลเดอร์
 #

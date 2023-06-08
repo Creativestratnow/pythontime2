@@ -1,0 +1,13 @@
+import time
+
+def gcd(x, y):
+    start = min(x, y)
+    while True:
+        if (x % start == 0) and (y % start == 0):
+            return start
+        start -= 1
+
+t1 = time.time()
+gcd(137690, 298)
+t2 = time.time()
+print(t1-t2)
